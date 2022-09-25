@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "git"
+		},
+		{
+			"path": "D:/Vs code"
+		},
+		{
+			"path": "notifications-page-main"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "git"
+	}
+}

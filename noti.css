@@ -1,0 +1,152 @@
+body{
+    background-color: hsl(210, 60%, 98%);
+    
+}
+
+@font-face {
+    font-family: myFonts;
+    src: url(/notifications-page-main/assets/fonts/static/PlusJakartaSans-ExtraBold.ttf);
+}
+
+@font-face {
+    font-family: my;
+    src: url(/notifications-page-main/assets/fonts/static/PlusJakartaSans-Medium.ttf);
+}
+
+.attribution{
+    position: fixed;
+    bottom:10px;
+    
+}
+
+.container{
+    height:670px;
+    width:520px;
+    border-radius: 10px;
+    background-color: white;
+    position:relative;
+    top:5px;
+    left:400px;
+    display:flex;
+    flex-direction: column;
+
+    
+}
+
+.notiContainer{
+    display:flex;
+    justify-content: space-between;
+    margin:10px 15px 10px 15px;
+    padding:10px;
+}
+
+#number{
+    display:inline-block;
+    height:13px;
+    width: 19px;
+    text-align: center;
+    border-radius:3px;
+    background-color: hsl(219, 85%, 26%);
+    color:white;
+    font-size: 9px;
+    position: relative;
+    left:4px;
+    bottom: 4px;
+    padding-top:1px;
+    padding-bottom:1px;
+
+}
+
+.unreaded{
+    background-color: hsl(210, 60%, 98%);
+    margin:5px 15px 5px 15px;
+    padding:10px;
+    text-align:left;
+    height: 40px;
+    border-radius: 7px;
+    font-family: myFonts;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+
+.readed{
+    margin:5px 15px 5px 15px;
+    padding:10px;
+    text-align:left;
+    height: 40px;
+    border-radius: 7px;
+    font-family: myFonts;
+    font-size: 12px;
+    cursor: pointer;
+    
+}
+
+.bold{
+    font-weight: 800;
+}
+
+.lightBold{
+    font-weight:00;
+    font-family: my;
+    color:grey;
+
+}
+
+.light{
+    display:block;
+    color: #b4b4b4;
+    font-family: my;
+}
+
+
+
+.img1{
+    display:flex;
+}
+
+.ra{
+    position:relative;
+    left: 15px;
+}
+
+#unique{
+    background-color: hsl(211, 68%, 94%);
+    margin-top:10px;
+    border-radius:5px;
+    padding:10px;
+    
+
+}
+
+#rizky{
+    flex-grow:.5;
+}
+
+#chessImg{
+    position:relative;
+    left:150px;
+}
+
+.bold:hover{
+    color:hsl(219, 85%, 26%);
+    cursor: pointer;
+    font-weight:bolder;
+}
+
+#mark:hover{
+    color:hsl(219, 85%, 26%);
+    cursor: pointer;
+}
+
+.red{
+    display: inline-block;
+    background-color: red;
+    border:solid 2px red;
+    border-radius: 5px;
+    width: 1px;
+    height: 1px;
+    position:relative;
+    left:2px;
+    bottom:2px;
+}

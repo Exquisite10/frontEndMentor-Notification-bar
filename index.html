@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="/notifications-page-main/assets/images/favicon-32x32.png">
+
+  <link rel="stylesheet" href="/noti.css">
+  
+  <title>Frontend Mentor | Notifications page</title>
+  
+</head>
+<body>
+  <div class="container">
+    <div class="notiContainer">
+      <div style="color:hsl(224, 21%, 14%); font-family: myFonts; font-size: 16px; font-weight: 800;" >
+        Notifications <div id="number">3</div>
+      </div>
+      <div style="font-size: small" id="mark">Mark all as read</div>
+    </div>
+
+    <div class="unreaded img1 org">
+      <div>
+        <img id ="img" src="notifications-page-main/assets/images/avatar-mark-webber.webp" alt="img" height="30px" width="30px" >
+      </div>
+
+      <div class="ra" >
+        <span class="bold">Mark Webber</span> <span class="lightBold">reacted to your recent post</span><span class="bold"> My first tournament today!</span>
+        <div class="red"></div>
+        <span class="light">1m ago</span>
+      </div>
+      
+    </div>
+
+    <div class="unreaded img1 org" id="2">
+
+      <div>
+        <img src="notifications-page-main/assets/images/avatar-angela-gray.webp" alt="img" width="30px" height="30px">
+      </div>
+
+      <div class="ra">
+        <span class="bold">Angela Gray</span> 
+        <span class="lightBold">followed you</span>
+        <div class="red"></div>
+        <span class="light">5m ago</span>
+      </div> 
+
+    </div>
+
+    <div class="unreaded img1 org" id="3">
+      <div>
+        <img src="notifications-page-main/assets/images/avatar-jacob-thompson.webp" alt="img" width="30px" height="30px">
+      </div>
+      <div class="ra">
+        <span class="bold">Jacob Thompson</span> <span class="lightBold">has joined your group</span> <span class="bold">Chess Club</span>
+        <div class="red"></div>
+        <span class="light">1 day ago</span>
+      </div>
+      
+    </div>
+
+    <div class="readed img1" id="rizky">
+      <div>
+        <img src="notifications-page-main/assets/images/avatar-rizky-hasanuddin.webp" alt="img" height="30px" width="30px">
+      </div>
+
+      <div class="ra">
+        <span class="bold">Rizky Hasanuddin</span> 
+        <span class="lightBold">sent you a private message</span>
+        <span class="light">5 days ago</span>
+        <div id="unique">
+          <span class="lightBold">
+            Hello, thanks for setting up the Chess Club. I've been a member for a few weeks now and 
+            I'm already having lots of fun and improving my game.
+          </span>
+        </div>
+      </div>
+      
+      
+    </div>
+
+    <div class="readed img1">
+      <div>
+        <img src="notifications-page-main/assets/images/avatar-kimberly-smith.webp" alt="img" height="30px" width="30px">
+      </div>
+
+      <div class="ra">
+        <span class="bold">Kimberly Smith</span>
+        <span class="lightBold">commented on your picture</span>
+        <span class="light">1 week ago</span>
+      </div>
+
+      <div id="chessImg">
+        <img src="notifications-page-main/assets/images/image-chess.webp" alt="img" height="30px" width="30px">
+      </div>
+      
+    </div>
+
+    <div class="readed img1" id="nathan">
+      <div>
+        <img  src="notifications-page-main/assets/images/avatar-nathan-peterson.webp" alt="img" height="30px" width="30px">
+      </div>
+      <div class="ra">
+        <span class="bold">Nathan Peterson</span> 
+        <span class="lightBold">reacted to your recent post</span> 
+        <span style="color:grey">5 end-game strategies to increase your win rate</span>
+        <span class="light">2 weeks ago</span>
+      </div>
+      
+    </div>
+
+    <div class="readed img1" id="anna">
+      <div>
+        <img src="notifications-page-main/assets/images/avatar-anna-kim.webp" alt="img" height="30px" width="30px">
+      </div>
+
+      <div class="ra">
+        <span class="bold">Anna Kim</span> 
+        <span class="lightBold">left the group</span> 
+        <span style="color:grey">Chess Club</span>
+        <span class="light">2 weeks ago</span>
+      </div>
+      
+    </div>    
+ 
+  </div>
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Yashasvi Singh</a>.
+  </div>
+  <script type="text/javascript" src="/noti.js"></script>
+</body>
+</html>
